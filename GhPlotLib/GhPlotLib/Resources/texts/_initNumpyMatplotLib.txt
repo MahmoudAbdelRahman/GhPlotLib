@@ -1,0 +1,33 @@
+﻿# -*- coding: utf-8 -*-
+"""
+Created on Sat Jun 10 22:21:15 2017
+
+@author: Mahmoud Abdelrahman
+"""
+
+workingDir = "##workingDir##"
+logfile = open(workingDir+"logfile.txt", 'w')
+separator = " -------------------------------- \n"
+logtext = ""
+logtext += " (C) author: Mahmoud Abdelrahman 2017 \n all rights reserved 2017\n <arch.mahmoud.ouf111@gmail.com>\n"
+logtext += separator
+try:
+    import numpy as np
+    logtext += "NumPy successfully imported\n"
+    logtext += "NumPy version : "+ (str(np.__version__)+"\n")
+except Exception as e:
+    logtext+=(str(e)+"\n")
+    
+logtext += separator
+
+try:
+    import matplotlib
+    logtext += "matplotlib successfully imported\n"
+    logtext += "matplotlib version : "+ (str(matplotlib.__version__)+"\n")
+except Exception as e:
+    logtext+=(str(e)+"\n")
+    
+logtext += separator
+
+logfile.write(logtext)
+logfile.close()

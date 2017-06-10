@@ -1,0 +1,8 @@
+c:\users\gamma\documents\visual studio 2013\Projects\GhPlotLib\GhPlotLib\bin\GhPlotLib.dll
+c:\users\gamma\documents\visual studio 2013\Projects\GhPlotLib\GhPlotLib\bin\GhPlotLib.pdb
+c:\users\gamma\documents\visual studio 2013\Projects\GhPlotLib\GhPlotLib\obj\Debug64\GhPlotLib.csprojResolveAssemblyReference.cache
+c:\users\gamma\documents\visual studio 2013\Projects\GhPlotLib\GhPlotLib\obj\Debug64\GhPlotLib.Resources.Icons.resources
+c:\users\gamma\documents\visual studio 2013\Projects\GhPlotLib\GhPlotLib\obj\Debug64\GhPlotLib.csproj.GenerateResource.Cache
+c:\users\gamma\documents\visual studio 2013\Projects\GhPlotLib\GhPlotLib\obj\Debug64\GhPlotLib.dll
+c:\users\gamma\documents\visual studio 2013\Projects\GhPlotLib\GhPlotLib\obj\Debug64\GhPlotLib.pdb
+c:\users\gamma\documents\visual studio 2013\Projects\GhPlotLib\GhPlotLib\obj\Debug64\GhPlotLib.Resources.texts.resources
