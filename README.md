@@ -10,3 +10,12 @@ Scientific plotting library for Rhino\Grasshopper based on Python\matplotlib mod
 -------
 __numpy.linspace(start, stop, num)__
 ![nplinspace](https://user-images.githubusercontent.com/6969514/27248918-b50a6c10-530a-11e7-84f2-634a64110b19.png)
+-----
+I have added a new plotting component based on matplotlib module , also I have added color maps for example "heat map, rgb, hsv, ....".
+
+```python
+matplotlib.pcolor()
+matplotlib.cmap()
+```
+
+![colormaps](https://user-images.githubusercontent.com/6969514/27250019-50008c36-5324-11e7-9611-0146e7842afa.jpg)
