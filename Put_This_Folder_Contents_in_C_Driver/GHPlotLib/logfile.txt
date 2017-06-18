@@ -1,0 +1,10 @@
+(C) author: Mahmoud Abdelrahman 2017 
+ all rights reserved 2017
+ <arch.mahmoud.ouf111@gmail.com>
+ -------------------------------- 
+NumPy successfully imported
+NumPy version : 1.9.2
+ -------------------------------- 
+matplotlib successfully imported
+matplotlib version : 1.4.3
+ -------------------------------- 

@@ -1,0 +1,79 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Jun 16 08:45:09 2017
+
+@author: gamma
+"""
+
+
+ghenv.Component.Name = "NumPy.Zeros"
+ghenv.Component.NickName = 'np.Zeros'
+ghenv.Component.Message = 'Zeros\' Matrix'
+ghenv.Component.IconDisplayMode = ghenv.Component.IconDisplayMode.icon
+ghenv.Component.Category = "GhPlotLib"
+ghenv.Component.SubCategory = "0 | DataInputs"
+
+import System
+from System.Diagnostics import Process
+
+"""
+
+matrixShape = ##Shape##
+matrixDType = ##Dtype##
+workingDir = ##workingDir##
+"""
+
+def main(shape, dtype, workingDir):
+    txt = ""
+    fileName = "NpZeroMat.py"
+    timenow = System.DateTime.Now.ToString("yyyyMMdd")
+    if(shape == None): return
+    else:
+        if(dtype == None): dtype = 1
+        if(workingDir == None): workingDir = "C:\\GHPlotLib\\TEMP\\"+timenow+"\\"
+        
+    if(not System.IO.Directory.Exists(workingDir)):System.IO.Directory.CreateDirectory(workingDir)
+        
+        
+        
+    #Open the Template file
+    tempFile = open("C:\\GHPlotLib\\PythonInits\\npZeros.py", 'r')
+    txt = tempFile.read()
+    
+    
+    #replace hashTags with the real values: 
+    txt = txt.replace("##Shape##",shape)
+    
+    if(dtype == 0): dtypeStr = "np.float64"
+    elif (dtype == 1):dtypeStr = "np.int32"
+    elif (dtype == 2):dtypeStr = "np.int16"
+    else : dtypeStr = "np.float64"
+    
+    txt = txt.replace("##Dtype##", dtypeStr)
+    txt = txt.replace("##workingDir##", "\""+workingDir.replace("\\", "\\\\")+"\"")
+    
+    newFile = open(workingDir+fileName, 'w')
+    newFile.write(txt)
+    
+    runProcess(workingDir,fileName)
+    
+    #close Opened Files
+    tempFile.close()
+    newFile.close()
+    
+    return (timenow, txt)
+
+
+
+def runProcess(workingDir, filename):
+    p = Process()
+    p.StartInfo.FileName = workingDir+filename
+    p.Start()
+    p.WaitForExit()
+
+
+def readfiles(workingDir):
+    return
+
+_Shape = "(3, 3)"
+Log_ = main(_Shape, _Dtype_, _workingDir_)[1]
