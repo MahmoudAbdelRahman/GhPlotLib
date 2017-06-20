@@ -5,7 +5,7 @@ Scientific plotting library for Rhino\Grasshopper based on Python\matplotlib mod
 -------
 ![GhPlotLibRhinoGrasshopper](https://3.bp.blogspot.com/-UPz4W1AEcek/WUb0BZd9p_I/AAAAAAAACQg/_h9LTWUSpAUkoywarvqkU1DIeYiDSGeywCLcBGAs/s1600/output_avwG5S.gif)
 
-![01](https://user-images.githubusercontent.com/6969514/27249365-11970d36-5314-11e7-8ab6-b7e453b39479.png)
+![matplotlib](https://user-images.githubusercontent.com/6969514/27344624-47637820-55e7-11e7-9ba3-e71e044dab9b.png)
 -------
 ![02](https://user-images.githubusercontent.com/6969514/27249424-94b9d13e-5315-11e7-84d5-dce029bf79ff.png)
 -------
