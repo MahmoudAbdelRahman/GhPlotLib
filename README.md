@@ -20,3 +20,6 @@ matplotlib.cmap()
 ```
 
 ![colormaps](https://user-images.githubusercontent.com/6969514/27250019-50008c36-5324-11e7-9611-0146e7842afa.jpg)
+
+
+![loadingandvisudigits](https://user-images.githubusercontent.com/6969514/27674922-26743f60-5ca8-11e7-8ef5-4c5897e28680.JPG)
